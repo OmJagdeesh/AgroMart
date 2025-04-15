@@ -42,6 +42,11 @@
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1.8; /* Improve readability */
+		font-size: 15px; /* Slightly larger font size */
+		
+	
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -715,38 +720,23 @@
 	input[type="reset"],
 	input[type="button"],
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3ba666;
-		border-radius: 4px;
-		border: 0;
-		color: #ffffff !important;
+		background-color: #4caf50; /* Green background */
+		color: #ffffff; /* White text */
+		padding: 12px 24px; /* Slightly larger padding */
+		border: none;
+		border-radius: 8px; /* More rounded corners */
+		font-size: 16px;
 		cursor: pointer;
-		display: inline-block;
-		font-weight: 400;
-		height: 2.85em;
-		line-height: 2.8em;
-		padding: 0 2em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
+		transition: all 0.3s ease; /* Smooth hover effect */
 	}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #42b972;
+			background-color: #388e3c; /* Darker green on hover */
+			transform: scale(1.05); /* Slight zoom effect on hover */
 		}
-
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
@@ -956,15 +946,18 @@
 
 /* Banner */
 
-	#banner {
-		background: url("images/overlay.png"), url("../images/new-banner1.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
-		padding: 16em 0em 14em;
-		text-align: center;
-	}
+#banner {
+    background: url("images/overlay.png"), url("../images/new-banner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 18em 0em 16em; /* Adjust padding for better spacing */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Change font style */
+    border-bottom: 5px solid #4caf50; /* Add a green border at the bottom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
 
 		#banner h2 {
 			color: #ffffff;
@@ -1038,9 +1031,11 @@
 /* Footer */
 
 	#footer {
-		background: #202222;
-		color: #888;
-		padding: 6em 0em 4em;
+		background: #2e7d32; /* Dark green background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
 	}
 
 		#footer h2, #footer h3, #footer h4 {
@@ -1053,11 +1048,13 @@
 			-o-transition: all 0.2s ease-in-out;
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
-			color: #888;
+			color: #a5d6a7;
+			text-decoration: none;
 		}
 
 			#footer a:active, #footer a:hover {
 				color: #ffffff;
+				text-decoration: underline;
 			}
 
 		#footer .icons .rounded {

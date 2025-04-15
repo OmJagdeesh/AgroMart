@@ -71,7 +71,7 @@ require 'menu.php';
 		<div class="footer-center">
 			<div>
 				<i class="fa fa-map-marker"></i>
-				<p style="font-size:20px">CropMart Office<span>Vormir</span></p>
+				<p style="font-size:20px">CropMart Office<span>Kothrud</span></p>
 			</div>
 			<div>
 				<i class="fa fa-phone"></i>
