@@ -14,8 +14,3 @@ How to RUN the project:
 4. Create a database with the name `CropMart`, then click on `Import` button.
 5. Click on `Choose file` and choose CropMart.sql from the project folder and click on `Go`.
 6. Now Open you Browser type `localhost/CropMart`.
-
-<br><br>
-Screenshots:
-<br>
-![image](https://user-images.githubusercontent.com/89032469/153743383-bdec2d1a-14e9-43e3-8180-c757abe8f515.png)
